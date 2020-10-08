@@ -72,13 +72,13 @@ a {
     padding: 20px;
     margin: 0;
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
     flex-flow: row wrap;
 }
 
 #qualities li {
     width: 30%;
-    margin-right: 15px;
     margin-bottom: 15px;
     text-align: center;
     padding: 5px;
@@ -97,4 +97,28 @@ a {
 
 footer {
     margin-top: 100px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .menu a {
+        font-size: 14pt;
+    }
+
+    #about {
+        font-size: 17pt;
+    }
+
+    #qualities {
+        width: 100%;
+    }
+
+    #qualities h1 {
+        font-size: 30pt;
+    }
+
+    #qualities li {
+        width: 100%;
+        font-size: 15pt;
+    }
 }
