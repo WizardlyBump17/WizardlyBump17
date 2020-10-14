@@ -43,11 +43,21 @@
     top: -10px;
 }
 
+#plugins p {
+    margin-bottom: 0;
+}
+
 #plugins label {
-    padding: 10px;
     cursor: pointer;
     color: rgb(0, 140, 165);
     text-decoration: underline;
+    visibility: hidden;
+}
+
+#plugins label:before {
+    visibility: visible;
+    content: "Click here to see details.";
+    padding: 10px;
 }
 
 #plugins input {
@@ -69,16 +79,31 @@
     border-left: none;
 }
 
+/*0*/
 #test-plugin input:checked ~ .plugin-desc {
     display: inline;
 }
 
+#test-plugin input:checked ~ label:before {
+    content: "Click here to close details.";
+}
+
+/*1*/
 #test-plugin1 input:checked ~ .plugin-desc {
     display: inline;
 }
 
+#test-plugin1 input:checked ~ label:before {
+    content: "Click here to close details.";
+}
+
+/*2*/
 #test-plugin2 input:checked ~ .plugin-desc {
     display: inline;
+}
+
+#test-plugin2 input:checked ~ label:before {
+    content: "Click here to close details.";
 }
 
 @media screen and (max-width: 750px) {
