@@ -49,17 +49,4 @@
     #about {
         font-size: 17pt;
     }
-    
-    #qualities {
-        width: 100%;
-    }
-    
-    #qualities h1 {
-        font-size: 30pt;
-    }
-    
-    #qualities li {
-        width: 100%;
-        font-size: 15pt;
-    }
 }
