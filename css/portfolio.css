@@ -63,6 +63,7 @@
     text-align: left;
 }
 
+/* Free */
 /* WLib */
 #wlib input:checked ~ .plugin-desc {
     display: inline;
@@ -96,6 +97,34 @@
 }
 
 #nosee input:checked ~ .plugin-desc label:before {
+    content: "Click here to close details.";
+}
+
+/* Paid */
+/* SkyPlotMines */
+#skyplotmines input:checked ~ .plugin-desc {
+    display: inline;
+}
+
+#skyplotmines input:checked ~ .plugin-desc label:before {
+    content: "Click here to close details.";
+}
+
+/* SkyPickaxes */
+#skypickaxes input:checked ~ .plugin-desc {
+    display: inline;
+}
+
+#skypickaxes input:checked ~ .plugin-desc label:before {
+    content: "Click here to close details.";
+}
+
+/* SkyTokens */
+#skytokens input:checked ~ .plugin-desc {
+    display: inline;
+}
+
+#skytokens input:checked ~ .plugin-desc label:before {
     content: "Click here to close details.";
 }
 
