@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WizardlyBump17</title>
+        <title>Document</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
 
     <body>
-        <header class="menu">
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        <header>
+            <menu type="toolbar">
+                <li><a>Home</a></li>
+                <div class="sub-menu">
+                    <li class="menu-shower"><a>Plugins</a></li>
+                    <menu type="toolbar" class="center-flex">
+                        <li><a href="plugins/free.html">Free plugins</a></li>
+                        <li><a href="plugins/paid.html">Paid plugins</a></li>
+                    </menu>
+                </div>
+                <li><a href="contact.html">Contact</a></li>
+            </menu>
         </header>
-        
-        <section id="about" class="center-flex">
-            <p>Hi! Im WizardlyBump17 and Im a Bukkit plugin developer.</p>
-            <p>Im a developer since 2019 but only in 2020 I decided to make money with this.</p>
-            <p>Im freelancer at Solenxia Studios, Devnicis Services, DevRoom Team and Candor Services.</p>
-            <p>You can check all public my plugins <a href="portfolio.html" class="text-link">here</a> and you can get my contact <a href="contact.html" class="text-link">here</a>.</p>
-            <p>Just to warn: Im not a web designer, so dont worry about the design of this site.</p>
-            <div class="center-flex list">
-                <h1>Why me?</h1>
-                <ul>
-                    <li class="center-flex">
-                        <img src="images/high-quality.png" alt="High quality">
-                        Guaranteed quality: the plugin will be well made and with performance
-                    </li>
-                    <li class="center-flex">
-                        <img src="images/clock.png" alt="Clock">
-                        Your plugin will be made as soon as possible
-                    </li>
-                    <li class="center-flex">
-                        <img src="images/experience.png" alt="Experience">
-                        1+ year experience in development of Bukkit plugins
-                    </li>
-                </ul>
-            </div>
-        </section>
-        
-        <footer class="center-flex">
-            <div class="flaticon">
-                Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
-            </div>
-            <p>Design by <a href="contact.html" class="text-link">WizardlyBump17</a>.</p>
+
+        <main>
+            <section>
+                <span class="center-flex hgroup">
+                    <h1>I'm WizardlyBump17,</h1>
+                    <h3>a Spigot plugins developer</h3>
+                </span>
+
+                <p>I'm constantly learing and doing plugins and I plan, in the future, to release my own Minecraft server.</p>
+                <p>I'm a freelancer at:</p>
+                <div id="teams">
+                    <ul class="center-flex list">
+                        <li>
+                            <h2>Candor Services</h2>
+                            <img src="https://cdn.discordapp.com/icons/650773903236399134/26cea6203ade59e1a61f40cdfa55fa03.png?size=128" alt="Candor Services">
+                        </li>
+                        <li>
+                            <h2>DevRoom Team</h2>
+                            <img src="https://cdn.discordapp.com/icons/617294498535309322/8c2c24463df70388273b93b8dcf111bd.png?size=128" alt="DevRoom Team">
+                        </li>
+                        <li>
+                            <h2>Devnics Services</h2>
+                            <img src="https://cdn.discordapp.com/icons/683219346490654721/a_c254bbd1ed4d42941ec473906d034b53.png?size=128" alt="Devnics Services">
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="warranties" class="center-flex">
+                    <p>These things are guaranteed to be with your plugin if you choose me:</p>
+                    <ul class="list">
+                        <li>
+                            <h4>Peformance</h4>
+                            <img src="images/clock.png" alt="Peformance">
+                        </li>
+                        <li>
+                            <h4>Quality</h4>
+                            <img src="images/high-quality.png" alt="High quality">
+                        </li>
+                        <li>
+                            <h4>Configuration</h4>
+                            <img src="images/configuration.png" alt="Configuration">
+                        </li>
+                        <li>
+                            <h4>Support</h4>
+                            <img src="images/support.png" alt="Support">
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="temp-contact">
+                    <h1>Temporary contact section:</h1>
+                    <h4>Discord: ! WizardlyBump17#8176</h4>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Developed by WizardlyBump17.</p>
         </footer>
     </body>
 </html>

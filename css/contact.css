@@ -1,8 +1,0 @@
-.list > ul {
-    list-style-type: none;
-    align-items: center;
-    flex-flow: row wrap;
-    list-style-type: none;
-    padding: 20px;
-    width: 75%;
-}
