@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <% css_files.forEach(file => { %>
+            <link rel="stylesheet" href="/css/<%= file %>">
+        <% }) %>
+        <% js_files.forEach(file => { %>
+            <script src="/js/<%= file %> "></script>
+        <% }) %>
+    </head>
+
+    <body>
+        <header>
+            <menu type="toolbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/plugins">Plugins</a></li>
+                <li><a href="/#temp-contact">Contact</a></li>
+            </menu>
+        </header>

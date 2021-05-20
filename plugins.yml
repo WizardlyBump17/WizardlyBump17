@@ -1,0 +1,89 @@
+wlib:
+  name: WLib
+  version: '1.0.0'
+  free: true
+  short_description: 'A simple plugin to help the plugin development.'
+  description:
+    content: 
+      - A beaultiful item builder
+      - Something cool
+      - qiurh
+      - 2o85y84y5tuihry478
+    images:
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_snowtops.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_lights.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_forest.jpg \- cool image
+
+wlib1:
+  name: WLib1
+  version: '1.0.0'
+  free: true
+  short_description: 'A simple plugin to help the plugin development.'
+  description:
+    content: 
+      - A beaultiful item builder
+      - Something cool
+      - qiurh
+      - 2o85y84y5tuihry478
+    images:
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_snowtops.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_lights.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_forest.jpg \- cool image
+
+wlib2:
+  name: WLib2
+  version: '1.0.0'
+  free: true
+  short_description: 'A simple plugin to help the plugin development.'
+  description:
+    content: 
+      - A beaultiful item builder
+      - Something cool
+      - qiurh
+      - 2o85y84y5tuihry478
+    images:
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_snowtops.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_lights.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_forest.jpg \- cool image
+
+wlib3:
+  name: WLib3
+  version: '1.0.0'
+  free: true
+  short_description: 'A simple plugin to help the plugin development.'
+  description:
+    content: 
+      - A beaultiful item builder
+      - Something cool
+      - qiurh
+      - 2o85y84y5tuihry478
+    images:
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_snowtops.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_lights.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_forest.jpg \- cool image
+
+wlib4:
+  name: WLib4
+  version: '1.0.0'
+  free: true
+  short_description: 'A simple plugin to help the plugin development.'
+  description:
+    content: 
+      - A beaultiful item builder
+      - Something cool
+      - qiurh
+      - 2o85y84y5tuihry478
+    images:
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_snowtops.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_lights.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_mountains.jpg \- cool image
+      - https://www.w3schools.com/w3css/img_forest.jpg \- cool image

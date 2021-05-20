@@ -1,0 +1,56 @@
+.plugins {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plugins li:hover {
+    top: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: #4575cc;
+    border: none;
+    padding: 7px 19px;
+    border-radius: 3px;
+    margin: 5px;
+    color: black;
+    font-weight: 900;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #578ae9;
+    border-radius: 6px;
+}
+
+.plugin li {
+    min-width: 600px;
+}
+
+.plugins li li {
+    font-size: 15pt;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.plugins ul {
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plugins li figure {
+    margin-top: 10px;
+}
