@@ -13,5 +13,8 @@
     "express": "^4.17.1",
     "fs": "*",
     "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "next": "^10.2.2"
   }
 }
