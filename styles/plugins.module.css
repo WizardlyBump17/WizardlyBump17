@@ -10,12 +10,12 @@
     top: 0;
 }
 
-img {
+.plugins img {
     width: 100%;
     height: 100%;
 }
 
-button {
+.plugins button {
     background-color: #4575cc;
     border: none;
     padding: 7px 19px;
@@ -26,7 +26,7 @@ button {
     transition: all 0.3s;
 }
 
-button:hover {
+.plugins button:hover {
     background-color: #578ae9;
     border-radius: 6px;
 }
@@ -43,14 +43,31 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.plugins ul {
-    margin-top: 10px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 .plugins li figure {
     margin-top: 10px;
+}
+
+.plugins h6 {
+    margin-bottom: 10px;
+}
+
+.versions {
+    margin-bottom: 20px;
+}
+
+.prefix_text {
+    font-weight: bolder;
+}
+
+.content {
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+}
+
+.images {
+    padding: 0;
+}
+
+.images li {
+    margin: 5px;
 }
