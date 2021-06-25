@@ -45,7 +45,7 @@ export default function Home() {
                     </ul>
                 </div>
 
-                <div className={`center-flex container`}>
+                <div className={`container`}>
                     <h3>These things are guaranteed to be with your plugin if you choose me:</h3>
                     <ul className={`${styles.warranties} list`}>
                         <li>

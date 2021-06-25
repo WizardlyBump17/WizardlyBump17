@@ -1,9 +1,15 @@
 .warranties {
-    justify-content: space-between; /* finish */
+    justify-content: space-between;
+    flex-direction: column;
+    flex-flow: wrap;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .warranties li {
-    min-width: 40%;
+    width: 40%;
 }
 
 @media screen and (max-width: 900px) {
@@ -14,7 +20,7 @@
 
 @media screen and (max-width: 700px) {
 
-    .warranties ul {
+    .warranties {
         width: 90%;
     }
 
