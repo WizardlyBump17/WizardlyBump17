@@ -1,11 +1,15 @@
 import HeaderFooter from '../components/header-footer'
 import Head from 'next/head'
-import Image from 'next/image'
 
+import { 
+    List, 
+    Left, 
+    SmallP, 
+    StrongH4
+} from '../components/component_utils'
 import styles from '../styles/plugins.module.css'
 
 import {getPluginsData} from '../lib/plugins'
-import { plugin } from 'mongoose'
 
 export async function getStaticProps() {
     const plugins = getPluginsData();
@@ -34,16 +38,18 @@ export default function Plugins({freePlugins, paidPlugins}) {
 
 function showPlugins(plugins) {
     return (<>
-        <ul className={`list ${styles.plugins}`}>
+        <List className={styles.plugins}>
             {plugins.map(plugin => (
                 <li key={plugin.id}>
-                    <h4 className="strong">{plugin.name} v{plugin.version}</h4>
+                    <StrongH4>{plugin.name} v{plugin.version}</StrongH4>
                     <h6>{plugin.short_description}</h6>
 
-                    <div className={`left ${styles.versions}`}>
-                        <p className="small-text">Native MC version: {plugin.mc_versions.native}</p>
-                        <p className="small-text">Tested versions: {plugin.mc_versions.tested.join(', ')}</p>
-                    </div>
+                    <Left>
+                        <div className={styles.versions}>
+                            <SmallP>{`Native MC version: ${plugin.mc_versions.native}`}</SmallP>
+                            <SmallP>{`Tested versions: ${plugin.mc_versions.tested.join(', ')}`}</SmallP>
+                        </div>
+                    </Left>
 
                     <div>
                         <p className={styles.prefix_text}>{plugin.description.prefix_text}</p>
@@ -59,6 +65,6 @@ function showPlugins(plugins) {
                     </div>
                 </li>
             ))}
-        </ul>
+        </List>
     </>)
 }

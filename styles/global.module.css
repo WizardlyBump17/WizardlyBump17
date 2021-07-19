@@ -1,0 +1,90 @@
+.container {
+    background-color: #14284D;
+    margin-top: 20px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 0 40px;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.list > li {
+    background-image: linear-gradient(45deg, #22468A, #1a3463);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+
+    transition: top 0.2s, box-shadow 0.6s;
+
+    position: relative;
+    top: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list > li figure {
+    margin: 0;
+}
+
+.list > li figcaption {
+    pointer-events: none;
+    border-radius: 10px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.03);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity 0.4s;
+}
+
+.list > li:hover {
+    top: -10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    background-color: #2B5AB3;
+}
+
+.list > li:hover figcaption {
+    opacity: 1;
+}
+
+.left {
+    text-align: left;
+    align-self: flex-start;
+}
+
+.small_text {
+    font-size: 17pt;
+}
+
+.strong {
+    font-weight: bolder;
+}
+
+.center_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 700px) {
+
+    .list {
+        flex-direction: column;
+    }
+
+    .list li {
+        width: 100%;
+    }
+}

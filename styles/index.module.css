@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 900px) {
     .warranties li {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -25,6 +25,6 @@
     }
 
     .warranties li {
-        width: 60%;
+        width: 80%;
     }
 }
