@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 
-.plugins li:hover {
+.plugins > li:hover {
     top: 0;
 }
 
@@ -52,22 +52,48 @@
 }
 
 .versions {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.prefix_text {
-    font-weight: bolder;
+.versions p {
+    font-size: 13pt;
+}
+
+.text {
+    font-size: 15pt;
+    text-align: left;
 }
 
 .content {
-    margin: 0px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 0;
+    list-style-type: none;
+}
+
+.content li {
+    font-size: 15pt;
+    text-align: left;
 }
 
 .images {
     padding: 0;
+    list-style-type: none;
 }
 
 .images li {
     margin: 5px;
+}
+
+.videos {
+    padding: 0;
+    list-style-type: none;
+}
+
+.videos li {
+    margin: 5px;
+}
+
+.videos iframe {
+    border: 0;
 }

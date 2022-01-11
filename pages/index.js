@@ -6,7 +6,8 @@ import {
     Container,
     List,
     CenterFlex,
-    HGroup
+    HGroup,
+    SmallP
 } from '../components/component_utils'
 import styles from '../styles/index.module.css'
 
@@ -26,23 +27,31 @@ export default function Home() {
 
                 <p>I'm constantly learing and doing plugins and I plan, in the future, to release my own Minecraft server.</p>
 
-                <Container id="teams">
+                <Container>
                     <h3>I'm freelancer at:</h3>
-                    <List>
-                        <li>{getTeamImage('DevRoom', '/images/devroom.png')}</li>
-                        <li>{getTeamImage('Candor Services', '/images/candor.png')}</li>
-                        <li>{getTeamImage('Devnics Services', '/images/devnics.png')}</li>
-                    </List>
+                    <div className="teams">
+                        <List>
+                            <li>{getTeamImage('DevRoom', '/images/devroom.png')}</li>
+                            <li>{getTeamImage('Candor Services', '/images/candor.png')}</li>
+                            <li>{getTeamImage('Devnics Services', '/images/devnics.png')}</li>
+                        </List>
+                    </div>
                 </Container>
 
                 <Container>
                     <h3>These things are guaranteed to be with your plugin if you choose me:</h3>
-                    <List className={styles.warranties}>
-                        <li>{getWarrantyImage('Peformance', '/images/clock.png')}</li>
-                        <li>{getWarrantyImage('High quality', '/images/high-quality.png')}</li>
-                        <li>{getWarrantyImage('Configuration', '/images/configuration.png')}</li>
-                        <li>{getWarrantyImage('Support', '/images/support.png')}</li>
-                    </List>
+                    <div className={styles.warranties}>
+                        <List>
+                            <li>{getWarrantyImage('Peformance', '/images/clock.png')}</li>
+                            <li>{getWarrantyImage('High quality', '/images/high-quality.png')}</li>
+                            <li>{getWarrantyImage('Configuration', '/images/configuration.png')}</li>
+                            <li>{getWarrantyImage('Support', '/images/support.png')}</li>
+                        </List>
+                    </div>
+                </Container>
+
+                <Container id="temp-contact">
+                    <SmallP>Discord: <span style={{fontWeight: "bold"}}>! WizardlyBump17#8176</span> (ID: 335024452742152204)</SmallP>
                 </Container>
         </HeaderFooter>
     </>)

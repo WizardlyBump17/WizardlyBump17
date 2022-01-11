@@ -1,6 +1,9 @@
 module.exports = {
     images: {
-      domains: ['helpx.adobe.com'],
+      domains: [
+        'helpx.adobe.com',
+        'cdn.discordapp.com'
+      ],
     },
     future: {
       webpack5: true,

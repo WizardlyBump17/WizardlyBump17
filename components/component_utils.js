@@ -11,8 +11,8 @@ export {
     HGroup
 }
 
-function Container({children, className}) {
-    return <div className={`${styles.container}${!className ? "" : " " + className}`}>{children}</div>
+function Container({children, className, id=""}) {
+    return <div className={`${styles.container}${!className ? "" : " " + className}`} id={`${id ? id : ""}`}>{children}</div>
 }
 
 function List({children, className}) {

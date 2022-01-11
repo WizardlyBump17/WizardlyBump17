@@ -1,5 +1,6 @@
 import HeaderFooter from '../components/header-footer'
 import Head from 'next/head'
+import Image from 'next/image'
 
 import { 
     List, 
@@ -47,21 +48,37 @@ function showPlugins(plugins) {
                     <Left>
                         <div className={styles.versions}>
                             <SmallP>{`Native MC version: ${plugin.mc_versions.native}`}</SmallP>
-                            <SmallP>{`Tested versions: ${plugin.mc_versions.tested.join(', ')}`}</SmallP>
+                            {plugin.mc_versions.tested && (
+                                <SmallP>{`Tested versions: ${plugin.mc_versions.tested.join(', ')}`}</SmallP>
+                            )}
                         </div>
                     </Left>
 
                     <div>
-                        <p className={styles.prefix_text}>{plugin.description.prefix_text}</p>
+                        {plugin.description.text.map(text => <p className={styles.text}>{text}</p>)}
+                        
                         <ul className={styles.content}>
                             {plugin.description.content.map(content => <li key={Math.random().toString(36).substr(2, 9)}>- {content}</li>)}
                         </ul>
 
-                        <ul className={styles.images}>
-                            {plugin.description.images.map(image => <li key={Math.random().toString(36).substr(2, 9)}>
-                                <img src={image.split('\\-')[0]} alt={image.split('\\-')[1]}/>
-                            </li>)}
-                        </ul>
+                        {plugin.description.images && (
+                            <ul className={styles.images}>
+                                {plugin.description.images.map(image => 
+                                    <li key={Math.random().toString(36).substr(2, 9)}>
+                                        <Image src={image} width="370" height="208" layout="responsive"/>
+                                    </li>)}
+                            </ul>
+                        )}
+
+                        {plugin.description.videos && (
+                            <ul className={styles.videos}>
+                                {plugin.description.videos.map(video => 
+                                    <li key={Math.random().toString(36).substr(2, 9)}>
+                                        <iframe width="370" height="208" src={video} layout="responsive"/> {/*????*/}
+                                    </li>
+                                )}
+                            </ul>
+                        )}
                     </div>
                 </li>
             ))}
