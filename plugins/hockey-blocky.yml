@@ -14,5 +14,7 @@ description:
     - Puck physics
     - Configurable teams
     - Can run multiple games at the same time
+  images:
+   - '/images/plugins/hockey-blocky/edit-arena.png'
   videos:
     - 'https://www.youtube.com/embed/-6a5k76pqdg'

@@ -58,13 +58,13 @@ function showPlugins(plugins) {
                         {plugin.description.text.map(text => <p className={styles.text}>{text}</p>)}
                         
                         <ul className={styles.content}>
-                            {plugin.description.content.map(content => <li key={Math.random().toString(36).substr(2, 9)}>- {content}</li>)}
+                            {plugin.description.content.map(content => <li key={Math.random().toString(36)}>- {content}</li>)}
                         </ul>
 
                         {plugin.description.images && (
                             <ul className={styles.images}>
                                 {plugin.description.images.map(image => 
-                                    <li key={Math.random().toString(36).substr(2, 9)}>
+                                    <li key={Math.random().toString(36)}>
                                         <Image src={image} width="370" height="208" layout="responsive"/>
                                     </li>)}
                             </ul>
@@ -73,8 +73,8 @@ function showPlugins(plugins) {
                         {plugin.description.videos && (
                             <ul className={styles.videos}>
                                 {plugin.description.videos.map(video => 
-                                    <li key={Math.random().toString(36).substr(2, 9)}>
-                                        <iframe width="370" height="208" src={video} layout="responsive"/> {/*????*/}
+                                    <li key={Math.random().toString(36)}>
+                                        <iframe width="370" height="208" src={video}/> {/*????*/}
                                     </li>
                                 )}
                             </ul>
