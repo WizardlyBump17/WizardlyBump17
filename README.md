@@ -4,6 +4,6 @@
 ![stats][g-langs]
 
 [g-status]: https://github-readme-stats.vercel.app/api?username=WizardlyBump17&show_icons=true&theme=radical&count_private=true
-[g-langs]: https://github-readme-stats.vercel.app/api/top-langs/?username=WizardlyBump17&layout=compact&langs_count=7&theme=radical&count_private
+[g-langs]: https://github-readme-stats.vercel.app/api/top-langs/?username=WizardlyBump17&layout=compact&langs_count=7&theme=radical&count_private=true
 
 My discord: ! WizardlyBump17 🇧🇷#8176 (or use the id 335024452742152204)
