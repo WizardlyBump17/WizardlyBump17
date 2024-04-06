@@ -1,6 +1,6 @@
-<picture>
+<a href="javascript:;">
     <img src="https://github-readme-stats.vercel.app/api?username=WizardlyBump17&show_icons=true&theme=dark&count_private=true&include_all_commits=true">
-</picture>
+</a>
 <br>
 <picture>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WizardlyBump17&langs_count=4&theme=dark&count_private=true">
